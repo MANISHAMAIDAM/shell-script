@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -ue
+set -ve
 
 failure(){
     echo "Failed at $1: $2"
